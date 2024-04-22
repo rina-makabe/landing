@@ -1,0 +1,81 @@
+/* Reset margins and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    background: white; /* White background for the whole page */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Banner styles */
+.banner {
+    background-image: url('banner-image.jpg'); /* Ensure you replace 'banner-image.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    height: 500px; /* You can adjust the height as needed */
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Calendas Plus', serif; /* Ensure Calendas Plus is correctly imported */
+}
+
+.banner h1 {
+    font-size: 45px;
+    color: #FFFFFF; /* Dark blue for main heading in the banner */
+}
+
+.banner p {
+    font-size: 24px;
+    color: #EEEEEE; /* Slightly lighter blue for subheading */
+}
+
+.banner a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0F044C; /* Dark blue background for the button */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Services section styles */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #EEEEEE; /* Light grey background for services section */
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #141E61; /* Slightly lighter blue for services header */
+}
+
+/* Card styles */
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: white; /* White background for each card */
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px;
+    color: #787A91; /* Soft grey for card titles */
+}
